@@ -23,3 +23,5 @@ bin/
 
 # Vendor folder
 /vendor
+
+*.xml
