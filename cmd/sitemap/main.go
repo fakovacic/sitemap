@@ -43,7 +43,7 @@ func main() {
 	ctx := context.Background()
 
 	// service
-	baseURL, err := sitemap.Validate(ctx, args[0])
+	baseURL, err := sitemap.Validate(ctx, args[1])
 	if err != nil {
 		log.Fatal(err)
 	}
